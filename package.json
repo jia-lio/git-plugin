@@ -20,6 +20,9 @@
     "type": "git",
     "url": "https://github.com/jia-lio/git-plugin.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "commands/",
     "install.js",
