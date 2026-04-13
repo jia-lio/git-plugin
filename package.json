@@ -1,0 +1,28 @@
+{
+  "name": "@jia-lio/claude-git-skill",
+  "version": "1.0.0",
+  "description": "Claude Code git skill for game projects (Unity / Cocos Creator 2.x / 3.x)",
+  "main": "install.js",
+  "scripts": {
+    "postinstall": "node install.js",
+    "preuninstall": "node uninstall.js"
+  },
+  "keywords": [
+    "claude-code",
+    "git",
+    "unity",
+    "cocos-creator",
+    "skill"
+  ],
+  "author": "jia-lio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jia-lio/git-plugin.git"
+  },
+  "files": [
+    "commands/",
+    "install.js",
+    "uninstall.js"
+  ]
+}
